@@ -6,13 +6,13 @@ TopMovies es una aplicación Android que muestra una lista de películas popular
 
 ##  Características
 
-- 🔒 Inicio de sesión con correo electrónico mediante **Firebase Authentication**.
-- 🧠 Arquitectura **MVVM + Clean Architecture**.
-- 📡 Consumo de API con **Retrofit2**.
-- 🗃️ Almacenamiento local con **Room**.
-- 🎞️ Muestra las 10 mejores películas (Top Rated).
-- 📝 Vista de detalle individual por cada película.
-- 💾 Cacheo inteligente: la **primera vez** consulta la API y guarda los datos en Room. Las siguientes veces, carga directamente desde la base de datos.
+- Inicio de sesión con correo electrónico mediante **Firebase Authentication**.
+-  Arquitectura **MVVM + Clean Architecture**.
+-  Consumo de API con **Retrofit2**.
+-  Almacenamiento local con **Room**.
+-  Muestra las 10 mejores películas (Top Rated).
+-  Vista de detalle individual por cada película.
+-  Cacheo inteligente: la **primera vez** consulta la API y guarda los datos en Room. Las siguientes veces, carga directamente desde la base de datos.
 
 ---
 

@@ -46,4 +46,8 @@ class MovieAdapter(
             .load(imageFile)
             .into(imageView)
     }
+
+    fun getItemAt(position: Int): MovieWithImage? {
+        return if (position in items.indices) items[position] else null
+    }
 }

@@ -63,11 +63,9 @@ class LoginActivity : AppCompatActivity() {
         }
 
         val radius = 2f
-
         val decorView = window.decorView
         val rootView = decorView.findViewById<ViewGroup>(android.R.id.content)
         val windowBackground = decorView.background
-
         binding.blurView.setupWith(rootView)
             .setFrameClearDrawable(windowBackground)
             .setBlurRadius(radius)

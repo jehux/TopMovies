@@ -8,6 +8,30 @@
     android:background="#18171C"
     tools:context=".presentation.ui.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageViewManBrackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:tint="#E018171C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_wallpaper" />
+
+    <eightbitlab.com.blurview.BlurView
+        android:id="@+id/blurViewHome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </eightbitlab.com.blurview.BlurView>
+
     <ProgressBar
         android:id="@+id/main_loader"
         android:layout_width="wrap_content"

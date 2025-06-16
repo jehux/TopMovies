@@ -40,6 +40,7 @@ class TopRatedMoviesViewModel @Inject constructor(
     fun fetchTopRatedMovies() {
         viewModelScope.launch {
             try {
+                _isLoading.value = true
                 val response = getTopMoviesUseCase.invoke()
 
                 val imageDownloadJobs = response.map { movie ->
