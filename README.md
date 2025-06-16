@@ -4,6 +4,10 @@ TopMovies es una aplicación Android que muestra una lista de películas popular
 
 ---
 
+## Video de funcionamiento
+
+[![Título del video](https://img.youtube.com/vi/0GwUUoVxXXY/hqdefault.jpg)](https://www.youtube.com/watch?v=0GwUUoVxXXY)
+
 ##  Características
 
 - Inicio de sesión con correo electrónico mediante **Firebase Authentication**.
